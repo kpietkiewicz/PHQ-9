@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>KWESTIONARIUSZ ZDROWIA PACJENTA-9 (PHQ-9)</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script src="PHQ-scripts.js"></script>
+</head>
+
+<body>
+<center>
+<h1><a>KWESTIONARIUSZ ZDROWIA PACJENTA-9 (PHQ-9)</a></h1>
+
+		<p><h2>Jak często w ciągu ostatnich 2 tygodni dokuczały
+		Panu/Pani następujące problemy? </h2></p>
+			<p>Formularz opracowano na podstawie PHQ-9. </br>
+			Opracowanie: Dr Robert L. Spitzer, Dr Janet B.W. Williams, Dr Kurt Kroenke oraz współpracownicy
+			z wykorzystaniem grantu oświatowego od firmy Pfizer Inc. Zgoda na powielanie, tłumaczenie, przedstawianie lub
+			rozprowadzanie niniejszego dokumentu nie jest wymagana.</p>
+			
+			
+</center>
+<form>
+			<br>
+			
+			Niewielkie zainteresowanie lub odczuwanie przyjemności z wykonywania czynności
+			<br>
+			<input type="radio" name="a" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" name="a" value="1"> Kilka dni<br>
+			<input type="radio" name="a" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" name="a" value="3"> Niemal codziennie<br>
+			<br>
+			Uczucie smutku, przygnębienia lub beznadziejności
+			<br>
+			<input type="radio" id="b" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="b" value="1"> Kilka dni<br>
+			<input type="radio" id="b" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="b" value="3"> Niemal codziennie<br>
+			<br>
+			Kłopoty z zaśnięciem lub przerywany sen, albo zbyt długi sen
+			<br>
+			<input type="radio" id="c" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="c" value="1"> Kilka dni<br>
+			<input type="radio" id="c" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="c" value="3"> Niemal codziennie<br>
+			<br>
+			Uczucie zmęczenia lub brak energii
+			<br>
+			<input type="radio" id="d" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="d" value="1"> Kilka dni<br>
+			<input type="radio" id="d" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="d" value="3"> Niemal codziennie<br>
+			<br>
+			Brak apetytu lub przejadanie się	
+			<br>
+			<input type="radio" id="e" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="e" value="1"> Kilka dni<br>
+			<input type="radio" id="e" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="e" value="3"> Niemal codziennie<br>
+			<br>
+			Poczucie niezadowolenia z siebie — lub uczucie, że jest się do niczego, albo że zawiódł/zawiodła Pan/Pani siebie
+			<br>
+			<input type="radio" id="f" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="f" value="1"> Kilka dni<br>
+			<input type="radio" id="f" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="f" value="3"> Niemal codziennie<br>
+			<br>
+			Problemy ze skupieniem się na przykład przy czytaniu gazety lub oglądaniu telewizji			
+			<br>
+			<input type="radio" id="g" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="g" value="1"> Kilka dni<br>
+			<input type="radio" id="g" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="g" value="3"> Niemal codziennie<br>
+			<br>
+			Poruszanie się lub mówienie tak wolno, że inni mogliby to zauważyć? Albo wręcz przeciwnie — niemożność usiedzenia w miejscu lub podenerwowanie powodujące ruchliwość znacznie większą niż zwykle
+			<br>
+			<input type="radio" id="h" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="h" value="1"> Kilka dni<br>
+			<input type="radio" id="h" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="h" value="3"> Niemal codziennie<br>
+			<br>
+			Myśli, że lepiej byłoby umrzeć, albo chęć zrobienia sobie jakiejś krzywdy	
+			<br>
+			<input type="radio" id="i" value="0"> Wcale nie dokuczały<br>
+			<input type="radio" id="i" value="1"> Kilka dni<br>
+			<input type="radio" id="i" value="2"> Więcej niż połowe dni<br>
+			<input type="radio" id="i" value="3"> Niemal codziennie<br>
+			<br>
+			Jeżeli zaznaczył/-a Pan/Pani którekolwiek z problemów, jak bardzo utrudniły one Panu/Pani wykonywanie pracy, zajmowanie się domem lub relacje z innymi ludźmi?
+			<br>
+			<input type="radio" id="j" value="0"> W ogóle nie utrudniły<br>
+			<input type="radio" id="j" value="1"> Trochę utrudniły<br>
+			<input type="radio" id="j" value="2"> Bardzo utrudniły<br>
+			<input type="radio" id="j" value="3"> Niezmiernie utrudniły<br>
+			<br>
+			
+			<br>
+			    <input TYPE="button" VALUE="Sprawdź wynik" onClick=computeForm(this.form)><br><br>
+</form> 
+
+</body>
